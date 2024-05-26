@@ -1,0 +1,91 @@
+main {
+    min-height: 100vh;
+    background: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), url(https://www.motopinas.com/images/posts/post12031.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+#contenedor{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+font-family: Helvetica, sans-serif;
+}
+h1 {
+    font-size: 5em;
+    letter-spacing: 7px;
+    padding: 20px;
+    font-style: italic;
+    text-align: center;
+}
+h2 {
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+}
+span {
+    font-style: oblique;
+    opacity: 0.75;
+}
+.menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    margin: 20px;
+}
+.menu li {
+    padding: 10px;
+}
+.menu li a {
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: white;
+}
+.menu li a:hover{
+    opacity: 0.5;
+}
+
+.redes{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    
+}
+.redes li a{
+    padding: 5px;
+}
+.redes li a:hover{
+    opacity: 0.5;
+}
+.redes li a img{
+    filter: invert(100%);
+}
+h1{
+    font-size: 5em;
+    letter-spacing: 7px;
+    padding:20px;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+span{
+    font-style: oblique;
+    opacity: 0.75;
+}
+h2{
+    font-size: 1.5em;
+    margin: 20px;
+    text-align: center;
+    
+}
